@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "a backend using express, mongo and mongoose",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/server.js"
+
   },
   "author": "ravinder",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
